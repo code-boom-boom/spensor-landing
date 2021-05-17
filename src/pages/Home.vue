@@ -3,6 +3,7 @@
     <info-bar />
     <navbar />
     <banner />
+    <client-bar />
   </div>
 </template>
 
@@ -10,13 +11,15 @@
 import InfoBar from "../components/InfoBar.vue";
 import Navbar from "../components/Navbar.vue";
 import Banner from "../components/Banner.vue";
+import ClientBar from "../components/ClientBar.vue";
 
 export default {
   name: "Home",
   components: {
     InfoBar,
     Navbar,
-    Banner
+    Banner,
+    ClientBar
   }
 }
 </script>
