@@ -1,7 +1,7 @@
 <template>
   <div class="w-full flex justify-center items-center py-8">
     <div class="container">
-      <div class="flex justify-between items-center">
+      <div class="flex justify-between items-center px-8">
         <h2 class="text-2xl font-bold">spense.</h2>
         <div class="grid grid-cols-3 gap-4">
           <menu-item name="Business" />

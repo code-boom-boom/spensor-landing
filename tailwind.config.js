@@ -8,6 +8,9 @@ module.exports = {
           primary: '#f0eeeb',
         },
       },
+      maxWidth: {
+        '80': '80%',
+      }
     },
   },
   variants: {
