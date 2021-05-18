@@ -1,6 +1,6 @@
 <template>
   <div class="w-full flex justify-center items-center bg-white">
-    <div class="container p-8">
+    <div class="container px-8">
       <div class="w-full bg-background-primary rounded-md px-24 pt-16 grid grid-cols-2">
         <div class="w-full flex flex-col justify-center h-full">
           <h2 class="text-4xl font-bold text-black leading-normal mb-2">Secure your money<br>with Escrow.</h2>
