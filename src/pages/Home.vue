@@ -4,6 +4,7 @@
     <navbar />
     <banner />
     <client-bar />
+    <escrow-section />
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import InfoBar from "../components/InfoBar.vue";
 import Navbar from "../components/Navbar.vue";
 import Banner from "../components/Banner.vue";
 import ClientBar from "../components/ClientBar.vue";
+import EscrowSection from "../components/EscrowSection.vue";
 
 export default {
   name: "Home",
@@ -19,7 +21,8 @@ export default {
     InfoBar,
     Navbar,
     Banner,
-    ClientBar
+    ClientBar,
+    EscrowSection
   }
 }
 </script>

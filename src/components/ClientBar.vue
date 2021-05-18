@@ -1,7 +1,7 @@
 <template>
   <div class="w-full bg-white flex justify-center">
-    <div class="container grid grid-cols-8 gap-8 py-16">
-      <base-image v-for="(image, index) in images" :key="index" :src="image" class="w-full px-4 flex items-center justify-center" />
+    <div class="container grid grid-cols-8 py-16">
+      <base-image v-for="(image, index) in images" :key="index" :src="image" class="w-full px-8 flex items-center justify-center" />
     </div>
   </div>
 </template>
